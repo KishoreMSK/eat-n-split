@@ -64,7 +64,7 @@ export default function App() {
         <FormSplitBill
           selectedFriend={selectedFriend}
           handleSplitBill={handleSplitBill}
-          key={selectedFriend.id}
+          key={selectedFriend.id} // to clear the state when we change them
         />
       )}
     </div>
